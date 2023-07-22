@@ -42,7 +42,7 @@ header {
     padding-top: 1%;
     align-items: stretch;
     justify-content: space-between;
-    gap: 32px;
+    gap: 25px;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
@@ -57,7 +57,7 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 24px;
+    gap: 8px;
     align-items: flex-end;
     min-width: 50px;
 }
@@ -87,8 +87,8 @@ a {
 
 .website {
     display: flex;
-    margin-top: 7%;
-    margin-bottom: 7%;
+    margin-top: 40px;
+    margin-bottom: 40px;
     gap: 16px;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -98,7 +98,7 @@ a {
 .placeholder {
     border: solid #696f79;
     background: #696f79;
-    min-height: 250px;
+    min-height: 200px;
     flex: 1;
     align-items: center;
     display: flex;
@@ -113,7 +113,7 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-width: 200px;
     gap: 30px;
     /*box-sizing: border-box;*/
@@ -130,7 +130,15 @@ a {
 @media screen and (min-width: 495px) {
 .subtext, .placeholder {
     min-width: 300px;
-    min-height: 250px;
+    min-height: 225px;
+}
+
+ul {
+    gap: 20px;
+}
+
+.logo {
+    min-width: 420px;
 }
     
 }
@@ -138,18 +146,11 @@ a {
 
 
 .primary {
-    font-size: 48px;
+    font-size: 40px;
     color: #F9FAF8;
-    font-weight: 900;
-    margin-bottom: auto;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
-
-/* .secondary {
-    padding-top: 32px;
-    padding-bottom: 12px;
-    margin-bottom: auto;
-
-} */
 
 button {
     padding: 8px 30px;
